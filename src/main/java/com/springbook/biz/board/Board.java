@@ -24,7 +24,7 @@ public class Board{
 	private String writer;
 	private String content;
 	@Temporal(TemporalType.DATE) // 날짜 타입의 변수에 선언하여 날짜 타입을 매핑할 때 사용 DATE TIME TIMESTAMP
-	private Date redDate = new Date();
+	private Date regDate = new Date();
 	private int cnt;
 	
 	public int getSeq() {
@@ -59,12 +59,12 @@ public class Board{
 		this.content = content;
 	}
 
-	public Date getRedDate() {
-		return redDate;
+	public Date getRegDate() {
+		return regDate;
 	}
 
-	public void setRedDate(Date redDate) {
-		this.redDate = redDate;
+	public void setRegDate(Date regDate) {
+		this.regDate = regDate;
 	}
 
 	public int getCnt() {
@@ -82,7 +82,7 @@ public class Board{
 	@Override
 	public String toString() {
 		return "Board [seq=" + seq + ", title=" + title + ", writer=" + writer + ", content=" + content + ", redDate="
-				+ redDate + ", cnt=" + cnt + "]";
+				+ regDate + ", cnt=" + cnt + "]";
 	}
    
 }
