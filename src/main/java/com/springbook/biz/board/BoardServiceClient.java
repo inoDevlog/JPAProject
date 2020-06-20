@@ -8,7 +8,9 @@ import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
 
 public class BoardServiceClient {
+	
 	public static void main(String[] args) {
+		
 		// EntityManager 생성
 		EntityManagerFactory emf = Persistence.createEntityManagerFactory("JPAProject");
 		EntityManager em = emf.createEntityManager();
