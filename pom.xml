@@ -15,19 +15,19 @@
   </properties>
 
   <dependencies>
-	<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-entitymanager -->
+	<!-- JPA, 하이버네이트 -->
 	<dependency>
-	    <groupId>org.hibernate</groupId>
-	    <artifactId>hibernate-entitymanager</artifactId>
-	    <version>5.4.17.Final</version>
+		<groupId>org.hibernate</groupId>
+		<artifactId>hibernate-entitymanager</artifactId>
+		<version>5.1.0.Final</version>
 	</dependency>
-	<!-- https://mvnrepository.com/artifact/com.h2database/h2 -->
+	<!-- H2 데이터베이스 -->
 	<dependency>
-	    <groupId>com.h2database</groupId>
-	    <artifactId>h2</artifactId>
-	    <version>1.4.200</version>
-	    <scope>test</scope>
+		<groupId>com.h2database</groupId>
+		<artifactId>h2</artifactId>
+		<version>1.4.196</version>
 	</dependency>
+	
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
