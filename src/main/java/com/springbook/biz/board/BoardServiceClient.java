@@ -16,6 +16,7 @@ public class BoardServiceClient {
 		EntityManager em = emf.createEntityManager();
 		// Transaction 생성
 		EntityTransaction tx = em.getTransaction();
+		
 		try {
 			// Transaction 시작
 			tx.begin();

@@ -11,7 +11,6 @@ import javax.persistence.TemporalType;
 
 /**
  * Entity implementation class for Entity: Board
- *
  */
 @Entity //엔티티 클래스, 테이블과 매핑
 @Table(name = "BOARD") // 엔티티와 관련된 테이블 매핑. 생략하면 클래스 이름이 테이블 이름과 매핑
